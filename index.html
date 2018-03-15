@@ -4,12 +4,69 @@
     <title>Page Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="assest/javascript/main.js"></script>  
+    <script src="assets/javascript/main.js"></script>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
+<!-- Adding titled jumbotron  -->
 <body>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="jumbotron">
+                            <h1>
+                                <span id="user-text">
+                                    <strong>Employee Data Management</strong>
+                                </span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- Adding first panel -->
+
+<div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel 1</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
 
 
-    
+<!-- adding second panel -->
+
+
+<div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel 2</h3>
+        </div>
+        <div class="panel-body">
+                <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Employee Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Role</label>
+                            <input type="text" class="form-control" id="role">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Start Date</label>
+                            <input type="text" class="form-control" id="start-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Monthly Rate</label>
+                            <input type="text" class="form-control" id="rate">
+                        </div>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" id="submit">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Submit</button>
+                        </div>
+                    </form>
+        </div>
+      </div>
 </body>
 </html>
